@@ -1,0 +1,182 @@
+.middle-representation{
+    background: #fff;
+}
+.register-board{
+    width: 1170px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-register{
+    width:720px;
+    padding: 15px 0px 15px 20px; 
+    background:#FF8C00;
+    border:none;
+    border-radius:4px;
+    color:#fff;
+    font-size: 13px;
+    font-family: verdana,sans-serif;
+    font-weight: lighter;
+    margin: 15px 0px 15px 11px;
+    text-transform: uppercase;
+    outline: none;
+}
+.input-register{
+    width: 343px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 0px 10px 12px;
+    font-size: 12px;
+    font-family: verdana,sans-serif;
+    font-weight: lighter;
+    margin: 5px 11px 10px 5px;
+}
+.btn-register:hover{
+    cursor: pointer;
+}
+.register-header h2{
+    text-align: left;
+    font-size: 16px;
+    font-family: verdana,sans-serif;
+    font-weight: bolder;
+    color:#FF8C00;
+}
+.register-option{
+    display:flex;
+    margin:20px 0px 40px 16px;
+}
+.register-header{
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    margin:15px 0px 15px 0px;
+}
+.register-footer{
+    margin:5px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-footer div p{
+    font-size: 12px;
+    font-family: verdana,sans-serif;
+    text-align: center;
+}
+.footer-option{
+    margin: 15px 0px 0px 11px
+}
+.register-footer div a{
+    font-size: 12px;
+    font-family: verdana,sans-serif;
+    text-align: center;
+    color:orange;
+}
+.passIcon{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.passIcon i{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    color:#696969;
+    font-size: 16px;
+    padding:8px 20px 8px 0px;
+}
+.rgt-Icon{
+    position: relative;
+}
+.rgt-Icon i{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    padding: 25px 0px 8px 40px;
+    color:#fff;
+}
+.rgt-checK{
+    display:flex;
+    width: 730px;
+    padding:10px 0px 10px 15px;
+    margin-top: 25px;
+}
+.rgt-checK label{
+    font-family: verdana,sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 23px;
+    
+}
+input[type="checkbox"] + label{
+    display: inline-block;
+    margin: 4px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"] + label:before{
+    content: "\2714";
+    border:2px solid lightgrey;
+    border-radius: 4px;
+    display: inline-block;
+    width:10px;
+    height: 7px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+    vertical-align:middle;
+    color: transparent;
+}
+input[type="checkbox"]:checked + label:before{
+    background: #FF8C00;
+    border-color: #FF8C00;
+    color: #fff; 
+    transition: 0.2s;
+}
+input[type="checkbox"]:checked + label:active:before{
+    transform: scale(0);
+}
+label{
+    font-family: helvetica,sans-serif;
+    font-size: 13px;
+}
+.register-option div,
+.tel-register div{
+    position: relative;
+}
+.register-option div label,
+.tel-register div label{
+    position: absolute;
+    top:10px;
+    left: 0;
+    color: lightgrey;
+    transition: 0.5s;
+    pointer-events: none;
+    margin: 0px 0px 0px 5px;
+}
+.register-option div input:focus~label,
+.tel-register div input:focus~label,
+.register-option div input:valid~label,
+.tel-register div input:valid~label
+{
+    top: -12px;
+    left: 0;
+    color:#FF8C00;
+    font-family: helvetica,sans-serif;
+    font-size: 12px;
+}
+.register-option div input:focus,
+.tel-register div input:focus,
+.register-option div input:valid,
+.tel-register div input:valid{
+    border-top: none;
+    border-bottom:2px solid #FF8C00;
+}
+.tel-register{
+    margin:20px 0px 40px 16px;
+}
+

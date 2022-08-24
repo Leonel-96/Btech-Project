@@ -1,0 +1,31 @@
+/*
+*{
+    -moz-box-sizing:border-box;box-sizing:border-box
+}
+*/
+a{
+    text-decoration:none
+}
+.slider-slide{
+    display:-webkit-flex;
+    display:flex;
+    -webkit-align-items:center;
+    align-items:center;
+    -webkit-justify-content:center;
+    justify-content:center;
+/*    background-color:#0652dd*/
+}
+.slider-slide.is-bright{
+    background-color:#054bc9
+}
+.page{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 6%;
+    max-width:100%;
+    position: inherit;
+}
+.page-slider{
+    width:100%;
+    height:400px;
+}

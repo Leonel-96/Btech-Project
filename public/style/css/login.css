@@ -1,0 +1,211 @@
+.middle-representation {
+    background: #fff;
+}
+
+.login-board {
+    width: 1170px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.login-section {
+    width: 585px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 20px 70px;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.btn-login {
+    width: 420px;
+    outline: none;
+    padding: 15px 0px 15px 0px;
+    background: #FF8C00;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    font-family: verdana, sans-serif;
+    font-weight: lighter;
+    margin: 10px 10px 15px 10px;
+}
+
+.btn-login-facebook {
+    width: 420px;
+    outline: none;
+    padding: 15px 0px 15px 0px;
+    background: #FF8C00;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    font-family: verdana, sans-serif;
+    font-weight: lighter;
+    margin: 10px 10px 15px 10px;
+    background-color: midnightblue;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    background: orange;
+}
+
+.login-input {
+    width: 420px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 13px 0px 10px 5px;
+    font-size: 12px;
+    font-family: verdana, sans-serif;
+    font-weight: lighter;
+    margin: 15px 0px 20px 0px;
+}
+
+.fa-envelope {
+    font-size: 18px;
+}
+
+.form-option {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-option div {
+    position: relative;
+}
+
+.form-option div label {
+    color: darkgrey;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.btn-link {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.form-option div input:focus~label,
+.form-option div input:valid~label {
+    top: -10px;
+    left: 0;
+    font-size: 10px;
+    color: orange;
+    font-weight: bold;
+    border: none;
+}
+
+.form-option div input:focus,
+.form-option div input:valid {
+    border-bottom: 2px solid #FF8C00;
+}
+
+.form-option h2 {
+    color: #FF8C00;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-login a {
+    color: #fff;
+}
+
+.form-option p {
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 25px;
+    margin: 0px 0px 0px 10px;
+}
+
+input[name="checkbox"] {
+    width: 50px;
+}
+
+input:focus {
+    border-bottom: 1px solid #FF8C00;
+}
+
+.lg-passIcon {
+    position: relative;
+}
+
+.lg-passIcon i {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    color: #696969;
+    padding: 25px 8px 5px 8px;
+}
+
+.lgIcon {
+    /* width: 100%; */
+    position: relative;
+}
+
+.lgIcon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 17px 8px 5px 30px;
+    color: #fff;
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    margin: 4px 4px 4px 0px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label:before {
+    content: "\2714";
+    border-radius: 4px;
+    border: 2px solid lightgrey;
+    width: 13px;
+    display: inline-block;
+    height: 13px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+    color: transparent;
+    font-family: verdana, sans-serif;
+}
+
+input[type="checkbox"]:checked+label:before {
+    border-color: #FF8C00;
+    background: #FF8C00;
+    color: #fff;
+}
+
+input[type="checkbox"]:checked+label:active:before {
+    transform: scale(0);
+}
+
+label {
+    font-family: helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
